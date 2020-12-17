@@ -24,5 +24,15 @@ namespace MyLinq
         {
             InitializeComponent();
         }
+
+        private void btnInicjalizacja_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSort_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Sortowanie");
+        }
     }
 }
