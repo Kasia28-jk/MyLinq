@@ -32,7 +32,29 @@ namespace MyLinq.Data
             string[] jobDescriptions = new string[] { "Lorem ipsum dolor sit amet, consectuar..." };
        
 
-          //  Emplyees = possibleNames.SelectMany(last)
+           Emplyees = possibleNames.SelectMany(lastName => possibleLastNames,
+               (x,y) => new Emplyee
+               {
+                    Id = Guid.NewGuid(),
+                    FirstName=x,
+                    LastName=y,
+
+                   Notes = noteTitles.SelectMany(content => noteContents, (zx, zy) => new Note
+                   {
+                       Id = Guid.NewGuid(),
+                       Title = zx,
+                       Content = zy
+                   }).ToList(),
+
+                   //o co chodzi z tym zapisem??? 
+                   //oraz o co chodzi z SelectMany
+                   Jobs = noteTitles.SelectMany(desc => jobDescriptions, (zx, zy) => new Job
+                   {
+                       Id = Guid.NewGuid(),
+                       Title = zx,
+                       Description = zy
+                   }).ToList()
+               }).ToList();
         }
     }
 }
