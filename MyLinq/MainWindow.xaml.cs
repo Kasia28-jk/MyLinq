@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MyLinq.Data;
 
 namespace MyLinq
 {
@@ -20,6 +21,9 @@ namespace MyLinq
     /// </summary>
     public partial class MainWindow : Window
     {
+        //WAZNE
+        
+        
         public MainWindow()
         {
             InitializeComponent();
@@ -27,7 +31,7 @@ namespace MyLinq
 
         private void btnInicjalizacja_Click(object sender, RoutedEventArgs e)
         {
-
+           // Data data = new MyLinq.Data();
         }
 
         private void btnSort_Click(object sender, RoutedEventArgs e)

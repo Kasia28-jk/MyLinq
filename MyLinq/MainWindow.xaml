@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="578*"/>
+            <ColumnDefinition Width="215*"/>
+        </Grid.ColumnDefinitions>
         <Button x:Name="btnInicjalizacja" Content="Inicjalizacja danych " HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="26,23,0,0" Height="38" FontSize="15" Click="btnInicjalizacja_Click" />
         <Button x:Name="btnSort" Content="Posortuj pracowników" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="26,79,0,0" Height="38" FontSize="15" Click="btnSort_Click" />
         <Button x:Name="btnWuswietlPoImieniu" Content="Wyswiet po imieniu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="26,139,0,0" Height="38" FontSize="15" Click="btnWuswietlPoImieniu_Click"/>
@@ -18,7 +22,9 @@
         <Button x:Name="btnJoinColections" Content="Łączenie kolekcji
                 " HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="26,312,0,0" Height="38" FontSize="15" Click="btnJoinColections_Click"/>
         <Button x:Name="btnShowByTask" Content="Wyswietl zadania pracownika
-                " HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="26,253,0,0" Height="38" FontSize="15" Click="btnShowByTask_Click"/>
+                " HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="26,253,0,0" Height="38" FontSize="15" Click="btnShowByTask_Click"/>
+        <TextBox x:Name="txtShowName" HorizontalAlignment="Left" Height="38" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" Margin="225,139,0,0"/>
+        <TextBox x:Name="txtShowTask" HorizontalAlignment="Left" Height="38" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" Margin="231,253,0,0"/>
 
     </Grid>
 </Window>
