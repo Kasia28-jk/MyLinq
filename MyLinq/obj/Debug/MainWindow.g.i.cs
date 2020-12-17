@@ -56,6 +56,70 @@ namespace MyLinq {
         #line default
         #line hidden
         
+        
+        #line 12 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnWuswietlPoImieniu;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 13 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnSortDecscending;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 14 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnGroupBy;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 15 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnCommonPartV2;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 17 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button BtnCommonPartOfColections;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 18 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnUnionColection;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 19 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnJoinColections;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 21 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnShowByTask;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -103,6 +167,48 @@ namespace MyLinq {
             
             #line default
             #line hidden
+            return;
+            case 3:
+            this.btnWuswietlPoImieniu = ((System.Windows.Controls.Button)(target));
+            
+            #line 12 "..\..\MainWindow.xaml"
+            this.btnWuswietlPoImieniu.Click += new System.Windows.RoutedEventHandler(this.btnWuswietlPoImieniu_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 4:
+            this.btnSortDecscending = ((System.Windows.Controls.Button)(target));
+            
+            #line 13 "..\..\MainWindow.xaml"
+            this.btnSortDecscending.Click += new System.Windows.RoutedEventHandler(this.btnSortDecscending_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 5:
+            this.btnGroupBy = ((System.Windows.Controls.Button)(target));
+            
+            #line 14 "..\..\MainWindow.xaml"
+            this.btnGroupBy.Click += new System.Windows.RoutedEventHandler(this.btnGroupBy_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 6:
+            this.btnCommonPartV2 = ((System.Windows.Controls.Button)(target));
+            return;
+            case 7:
+            this.BtnCommonPartOfColections = ((System.Windows.Controls.Button)(target));
+            return;
+            case 8:
+            this.btnUnionColection = ((System.Windows.Controls.Button)(target));
+            return;
+            case 9:
+            this.btnJoinColections = ((System.Windows.Controls.Button)(target));
+            return;
+            case 10:
+            this.btnShowByTask = ((System.Windows.Controls.Button)(target));
             return;
             }
             this._contentLoaded = true;

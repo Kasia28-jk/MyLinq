@@ -7,8 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnInicjalizacja" Content="Inicjalizacja danych " HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="46,28,0,0" Height="55" FontSize="15" Click="btnInicjalizacja_Click" />
-        <Button x:Name="btnSort" Content="Posortuj pracowników" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="46,104,0,0" Height="55" FontSize="15" Click="btnSort_Click" />
+        <Button x:Name="btnInicjalizacja" Content="Inicjalizacja danych " HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="26,23,0,0" Height="38" FontSize="15" Click="btnInicjalizacja_Click" />
+        <Button x:Name="btnSort" Content="Posortuj pracowników" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="26,79,0,0" Height="38" FontSize="15" Click="btnSort_Click" />
+        <Button x:Name="btnWuswietlPoImieniu" Content="Wyswiet po imieniu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="26,139,0,0" Height="38" FontSize="15" Click="btnWuswietlPoImieniu_Click"/>
+        <Button x:Name="btnSortDecscending" Content="Posortuj malejaco" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="225,79,0,0" Height="38" FontSize="15" Click="btnSortDecscending_Click"/>
+        <Button x:Name="btnGroupBy" Content="Grupuj po imieniu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="26,198,0,0" Height="38" FontSize="15" Click="btnGroupBy_Click"/>
+        <Button x:Name="btnCommonPartV2" Content="Czesc wpsolna kolekcji" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="225,312,0,0" Height="38" FontSize="15" Click="btnCommonPartV2_Click"/>
+        <Button x:Name="BtnCommonPartOfColections" Content="Czesc wpsolna kolekcji" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="225,198,0,0" Height="38" FontSize="15" Click="BtnCommonPartOfColections_Click"/>
+        <Button x:Name="btnUnionColection" Content="Unia kolekcji" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="26,372,0,0" Height="38" FontSize="15" Click="btnUnionColection_Click"/>
+        <Button x:Name="btnJoinColections" Content="Łączenie kolekcji
+                " HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="26,312,0,0" Height="38" FontSize="15" Click="btnJoinColections_Click"/>
+        <Button x:Name="btnShowByTask" Content="Wyswietl zadania pracownika
+                " HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="26,253,0,0" Height="38" FontSize="15" Click="btnShowByTask_Click"/>
 
     </Grid>
 </Window>

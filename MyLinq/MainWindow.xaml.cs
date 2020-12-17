@@ -34,5 +34,45 @@ namespace MyLinq
         {
             MessageBox.Show("Sortowanie");
         }
+
+        private void btnSortDecscending_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnWuswietlPoImieniu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnGroupBy_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnShowByTask_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnJoinColections_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnUnionColection_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnCommonPartOfColections_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnCommonPartV2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
